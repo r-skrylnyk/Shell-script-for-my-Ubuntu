@@ -3,6 +3,7 @@
 apt update && apt upgrade -y
 apt install net-tools -y
 apt install git -y
+apt install tree -y
 apt install curl -y
 apt install gparted -y
 apt install remmina -y
