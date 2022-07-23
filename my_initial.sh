@@ -3,6 +3,7 @@
 apt update && apt upgrade -y
 apt install net-tools -y
 apt install git -y
+apt install curl -y
 apt install gparted -y
 apt install remmina -y
 apt install libreoffice -y
@@ -28,4 +29,4 @@ add-apt-repository ppa:deluge-team / ppa
 apt-get update
 apt-get install deluge
 #----------------------------------------------------------------------------------------
-#Roman Skrylnyk, rev0.3.
+#Roman Skrylnyk, rev0.4.
