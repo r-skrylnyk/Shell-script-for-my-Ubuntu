@@ -14,6 +14,7 @@ dpkg -i google-chrome-stable_current_amd64.deb
 snap install telegram-desktop
 apt install gnome-tweak-tool -y
 apt install xrdp -y
+apt install speedtest-cli -y
 add-apt-repository ppa:videolan/master-daily
 apt update
 apt-get install vlc qtwayland5 -y
@@ -21,13 +22,13 @@ add-apt-repository ppa:webupd8team/atom
 apt-get update
 apt-get install atom -y
 #Why not?
+apt-get install gimp
 apt install -y software-properties-common
 add-apt-repository --yes --update ppa:ansible/ansible
 apt update
 apt install -y ansible
-apt-get install gimp
 add-apt-repository ppa:deluge-team / ppa
 apt-get update
 apt-get install deluge
 #----------------------------------------------------------------------------------------
-#Roman Skrylnyk, rev0.4.
+#Roman Skrylnyk, rev0.5.
