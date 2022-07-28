@@ -21,8 +21,11 @@ apt-get install vlc qtwayland5 -y
 add-apt-repository ppa:webupd8team/atom
 apt-get update
 apt-get install atom -y
+snap install skype --classic
 #Why not?
 apt-get install gimp
+wget https://download.cdn.viber.com/cdn/desktop/Linux/viber.deb
+apt install ./viber.deb
 apt install -y software-properties-common
 add-apt-repository --yes --update ppa:ansible/ansible
 apt update
