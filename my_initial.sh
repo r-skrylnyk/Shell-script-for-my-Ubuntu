@@ -24,6 +24,7 @@ apt-get install atom -y
 snap install skype --classic
 #Why not?
 apt-get install gimp
+apt install hardinfo
 wget https://download.cdn.viber.com/cdn/desktop/Linux/viber.deb
 apt install ./viber.deb
 apt install -y software-properties-common
@@ -34,4 +35,4 @@ add-apt-repository ppa:deluge-team / ppa
 apt-get update
 apt-get install deluge
 #----------------------------------------------------------------------------------------
-#Roman Skrylnyk, rev0.5.
+#Roman Skrylnyk, rev0.6.
