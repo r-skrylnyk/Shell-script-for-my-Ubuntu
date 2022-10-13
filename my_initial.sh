@@ -9,6 +9,8 @@ apt install gparted -y
 apt install remmina -y
 apt install libreoffice -y
 apt install ssh -y
+apt install openvpn -y
+apt install openvpn-systemd-resolved -y
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 dpkg -i google-chrome-stable_current_amd64.deb
 snap install telegram-desktop
@@ -34,5 +36,9 @@ apt install -y ansible
 add-apt-repository ppa:deluge-team / ppa
 apt-get update
 apt-get install deluge
-#----------------------------------------------------------------------------------------
-#Roman Skrylnyk, rev0.6.
+#ssh-keygen -t ed25519 -C "your_email@example.com"
+#eval "$(ssh-agent -s)"
+#ssh-add ~/.ssh/id_ed25519
+#cat ~/.ssh/id_ed25519.pub
+
+#Roman Skrylnyk, rev0.7.
