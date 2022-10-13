@@ -20,9 +20,10 @@ apt install speedtest-cli -y
 add-apt-repository ppa:videolan/master-daily
 apt update
 apt-get install vlc qtwayland5 -y
-add-apt-repository ppa:webupd8team/atom
-apt-get update
-apt-get install atom -y
+wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add
+sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" > /etc/apt/sources.list.d/atom.list'
+apt update
+apt install atom -y
 snap install skype --classic
 #Why not?
 apt-get install gimp
