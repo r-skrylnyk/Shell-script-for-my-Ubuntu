@@ -33,7 +33,7 @@ apt install ./viber.deb
 apt install -y software-properties-common
 add-apt-repository --yes --update ppa:ansible/ansible
 apt update
-apt install -y ansible
+apt install ansible -y 
 add-apt-repository ppa:deluge-team / ppa
 apt-get update
 apt-get install deluge
@@ -42,4 +42,4 @@ apt-get install deluge
 #ssh-add ~/.ssh/id_ed25519
 #cat ~/.ssh/id_ed25519.pub
 
-#Roman Skrylnyk, rev0.7.
+#Roman Skrylnyk, rev0.8.
