@@ -2,4 +2,3 @@
 *sudo update-grub (dual boot)
 sh
 
-###
