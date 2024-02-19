@@ -3,6 +3,7 @@
 apt update && apt upgrade -y
 apt install net-tools -y
 apt install git -y
+apt install mc -y
 apt install tree -y
 apt install curl -y
 apt install gparted -y
@@ -37,6 +38,7 @@ apt install ansible -y
 add-apt-repository ppa:deluge-team / ppa
 apt-get update
 apt-get install deluge
+apt install mc -y
 #ssh-keygen -t ed25519 -C "your_email@example.com"
 #eval "$(ssh-agent -s)"
 #ssh-add ~/.ssh/id_ed25519
